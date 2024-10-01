@@ -1,0 +1,16 @@
+brain_mri_segmentation/
+├── src/
+│   ├── app.py                  # FastAPI backend code
+│   ├── streamlit_app.py        # Streamlit frontend code
+│   ├── preprocessing.py         # Data preprocessing code
+│   ├── model.py                # Model implementation and training code
+│   ├── requirements.txt         # Dependencies
+│   └── utils.py                # Utility functions
+├── data/
+│   ├── data_mask.csv           # CSV file with metadata
+│   ├── best_unet_model.h5      # Trained Nested U-Net model weights
+│   ├── best_attention_model.h5  # Trained Attention U-Net model weights
+├── reports/
+│   ├── final_report.md          # Summary report
+├── README.md                    # Comprehensive project documentation
+└── .gitignore                   # Git ignore file
